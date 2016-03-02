@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <style type="text/css">
+         body {
+             margin: 0;
+             background: #f2f2f2;
+         }
+
+         @media print {
+             @page {
+                 margin: 0;
+             }
+
+             body {
+                 background: none;
+             }
+         }
+        </style>
+        <title>Food Labels</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.7/react.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.7/react-dom.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+        <script src="/aphrodite.js"></script>
+        <script src="/nutrition.js"></script>
+    </head>
+    <body>
+        <div id="labels"></div>
+        <script type="text/babel" src="/main.js"></script>
+    </body>
+</html>
